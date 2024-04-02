@@ -1,0 +1,29 @@
+:root {
+  --dark-red: #260101;
+  --medium-red: #592B27;
+  --dark-blue: #5B98A6;
+  --medium-blue: #A0CED9;
+  --light-blue: #D0ECF2;
+  --color-font: #FFFFFF;
+  --font-sm: 0.875rem;
+  --font-md: 1.125rem;
+  --font-lg: 1.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  color: var(--color-font);
+  background: var(--dark-red);
+}
+
+a { 
+  text-decoration: none;
+}
+

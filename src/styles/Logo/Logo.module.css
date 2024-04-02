@@ -1,0 +1,7 @@
+.title {
+    font-size: var(--font-sm);
+}
+
+.titleMark {
+    color: var(--dark-blue);
+}
