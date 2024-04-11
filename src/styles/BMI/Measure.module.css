@@ -1,0 +1,7 @@
+.measure {
+    width: 340px;
+    height: 130px;
+    background-color: var(--medium-blue);
+    border: 1px solid var(--dark-blue);
+    transform: skew(20deg);
+}

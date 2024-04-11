@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.css";
 import Header from "@/components/layout/Header/Header";
 import Footer from "@/components/layout/Footer/Footer";
 import Start from "@/components/Start/Start";
+import BMI from "@/components/BMI/BMI";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <Header/>
         <Start/>
+        <BMI/>
         <Footer/>
       </main>
     </>
