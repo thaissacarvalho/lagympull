@@ -45,4 +45,31 @@
     .table {
         width: 50%;
     }
+
+    .table__tips {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .table {
+        width: 70%;
+        height: 250px;
+    }
+
+    .table__title:nth-child(3) {
+        width: 300px;
+    }
+
+    .table__categories {
+        font-size: 1rem;
+    }
+
+    .table__scored {
+        font-size: 0.8rem;
+    }
+
+    .table__tips {
+        font-size: 0.9rem;
+    }
 }
