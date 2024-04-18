@@ -5,7 +5,7 @@ import Title from '../Title';
 
 export default function BMI() {
     return (
-        <section id='BMI' className={styles.section__BMI}>
+        <section id='bmi' className={styles.section__BMI}>
             <div className={styles.BMI__texts}>
                 <Title text="Why I should calculate my BMI?"/>
 

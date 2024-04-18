@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function AboutUs() {
     return (
-        <section className={styles.aboutus}>
+        <section className={styles.aboutus} id="aboutus">
             <Title text="ABOUT US" />
 
             <div className={styles.aboutus__container}>
