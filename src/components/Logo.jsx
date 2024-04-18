@@ -1,5 +1,5 @@
 import { Montserrat_Alternates } from "next/font/google";
-import styles from '@/styles/Logo/Logo.module.css';
+import styles from '@/styles/Components/Logo/Logo.module.css';
 
 const montserrat = Montserrat_Alternates({ 
     weight: "700",

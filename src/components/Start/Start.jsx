@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import bodyTransformPic from '@/images/body-transform.svg';
+import styles from '@/styles/Components/Start/Start.module.css';
 import { Montserrat_Alternates } from 'next/font/google';
-import styles from '@/styles/Start/Start.module.css';
 
 const montAlternative = Montserrat_Alternates({
   subsets: ["latin"],
@@ -15,7 +15,7 @@ export default function Start() {
       <div className={styles.home__texts}>
         <h2 className={`${montAlternative.className} ${styles.home__textIntroduction}`}>COME AND MAKE
           A DIFFERENCE
-          WITH A<br />
+          WITH A<br/>
           <span className={styles.home__textMark}>NATURAL TRANSFORMATION</span>
         </h2>
 

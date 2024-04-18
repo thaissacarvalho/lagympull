@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
-import styles from '@/styles/BMI/SwitchButton.module.css';
+import React from 'react';
+import styles from '@/styles/Components/BMI/SwitchButton.module.css';
 
-export default function SwitchButton() {
-
-  const [toggled, setToggled] = useState(false);
+export default function SwitchButton({toggled, setToggled}) {
 
   const handleClick = () => {
     setToggled(!toggled);

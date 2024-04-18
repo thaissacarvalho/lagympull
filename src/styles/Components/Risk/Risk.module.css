@@ -1,0 +1,33 @@
+.risk {
+    padding: 20px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.risk__text {
+    font-size: 14px;
+}
+
+.risk__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.risk__texts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media (min-width: 650px) {
+    .risk__container {
+        flex-direction: row;
+    }
+
+    .risk__texts {
+        width: 50%;
+        align-self: center;
+    }
+}

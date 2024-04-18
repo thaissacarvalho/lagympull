@@ -1,0 +1,14 @@
+.section__BMI {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.BMI__texts {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.125rem;
+    gap: 0.5rem;
+}

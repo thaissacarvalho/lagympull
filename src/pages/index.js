@@ -5,6 +5,8 @@ import Header from "@/components/layout/Header/Header";
 import Footer from "@/components/layout/Footer/Footer";
 import Start from "@/components/Start/Start";
 import BMI from "@/components/BMI/BMI";
+import Risk from "@/components/Risk/Risk";
+import AboutUs from "@/components/AboutUs/AboutUs";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +23,8 @@ export default function Home() {
         <Header/>
         <Start/>
         <BMI/>
+        <Risk/>
+        <AboutUs/>
         <Footer/>
       </main>
     </>

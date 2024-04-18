@@ -1,0 +1,35 @@
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 2rem;
+}
+
+.aboutus__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.aboutus__socialmedia {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.aboutus__iconsMedia {
+    display: flex;
+    gap: 1rem;
+}
+
+.aboutus__icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.aboutus__icon:hover {
+    color: var(--light-blue);
+    width: 40px;
+    height: 40px;
+}

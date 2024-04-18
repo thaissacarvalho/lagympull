@@ -1,0 +1,48 @@
+.table, .table__title, .table__categories, .table__scored, .table__tips {
+    border: 0.0625rem solid var(--light-blue);
+}
+
+.table {
+    font-style: italic;
+}
+
+.table__header {
+    width: 18.75rem;
+    height: 3.1875rem;
+    background-color: var(--medium-blue);
+}
+
+.table__header, .table__content {
+    padding: 0.3125rem;
+}
+
+.table__body {
+    background-color: var(--dark-blue);
+}
+
+.table__title {
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.table__categories {
+    font-size: 0.7rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.table__scored {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.table__tips {
+    font-size: 0.5rem;
+    padding: 0.3125rem;
+}
+
+@media (min-width: 650px) {
+    .table {
+        width: 50%;
+    }
+}
