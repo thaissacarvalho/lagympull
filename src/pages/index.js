@@ -17,7 +17,7 @@ export default function Home() {
         <title>LAGYMPULL</title>
         <meta name="description" content="Calculate your BMI." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/src/images/favicon.ico"/>
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <Header/>

@@ -9,7 +9,7 @@ export default function BMI() {
             <div className={styles.BMI__texts}>
                 <Title text="Why I should calculate my BMI?"/>
 
-                <p className={styles.BMI__text}>Second WOF(World Obesity Federation), the country Tonga, Samoa and United States are top 3 country can get
+                <p className={styles.BMI__text}>According to WOF(World Obesity Federation), the country Tonga, Samoa and United States are top 3 country can get
                     more people obese in the world.
                 </p>
 
