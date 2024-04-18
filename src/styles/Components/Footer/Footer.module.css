@@ -19,3 +19,19 @@
 .info__createdBy {
     font-size: 0.0625rem;
 }
+
+@media (min-width: 768px) {
+
+    .footer {
+        height: 6.25rem;
+    }
+
+
+    .info__copyright {
+        font-size: 0.875rem;
+    }
+
+    .info__createdBy {
+        font-size: 0.625rem;
+    }
+}
