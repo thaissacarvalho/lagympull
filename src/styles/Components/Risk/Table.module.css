@@ -23,6 +23,7 @@
 .table__title {
     font-size: 0.5rem;
     text-align: center;
+    color: var(--black);
 }
 
 .table__categories {
@@ -46,6 +47,10 @@
         width: 50%;
     }
 
+    .table__title {
+        font-size: 0.8rem;
+    }
+
     .table__tips {
         font-size: 0.7rem;
     }
@@ -55,6 +60,10 @@
     .table {
         width: 70%;
         height: 250px;
+    }
+
+    .table__title {
+        font-size: 0.9rem;
     }
 
     .table__title:nth-child(3) {
